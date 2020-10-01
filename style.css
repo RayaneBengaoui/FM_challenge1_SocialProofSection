@@ -1,7 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 8rem 10rem;
+  font-family: "Spartan", sans-serif;
+  overflow: hidden;
+}
+
+.top-part {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  color: hsl(300, 43%, 22%);
+  font-size: 4rem;
+}
+
+h2 {
+  margin-top: 0.5rem;
+  line-height: 150%;
+  color: hsl(300, 43%, 22%);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.ratings {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15rem;
+}
+
+.rating {
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 1.2rem 6rem;
+  background-color: hsl(300, 24%, 96%);
+}
+
+h3 {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  margin-left: 3rem;
+}
+
+.comments {
+  display: flex;
+  margin-top: 7rem;
+}
+
+.comment {
+  background-color: hsl(300, 43%, 22%);
+
+  margin-right: 3rem;
+  padding: 3rem 2rem;
+  border-radius: 1rem;
+}
+
+.informations {
+  display: flex;
+  align-items: center;
+}
+
+.informations img {
+  border-radius: 3rem;
+}
+
+.comment-textintro {
+  margin-left: 1.5rem;
+}
+h4 {
+  color: hsl(300, 24%, 96%);
+}
+
+h5 {
+  margin-top: 0.4rem;
+  color: hsl(333, 80%, 67%);
+}
+
+h6 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 2rem;
+  line-height: 150%;
+}
+
+.rsecond {
+  transform: translateX(4rem);
+}
+
+.rthird {
+  transform: translateX(8rem);
+}
+
+.cfirst {
+  transform: translateY(-2rem);
+}
+.cthird {
+  transform: translateY(2rem);
+}
+
 .attribution {
+  margin-top: 3rem;
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.bg-top {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  z-index: -1;
+}
+.bg-bot {
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+  z-index: -1;
 }
